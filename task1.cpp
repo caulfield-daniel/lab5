@@ -16,7 +16,7 @@ public:
 
     T pop() {
         if (q.empty()) {
-            throw ("Queue is empty");
+            throw runtime_error("Queue is empty");
         }
 
         T element = q.front();
